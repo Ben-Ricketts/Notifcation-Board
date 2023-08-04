@@ -1,0 +1,142 @@
+/* - White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%) */
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1vw;
+  background: hsl(212, 40%, 81%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readAll:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+
+.header span {
+  background: hsl(219, 85%, 26%);
+  color: white;
+  font-weight: 200;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-radius: 0.4rem;
+  margin-left: 1rem;
+}
+
+.wrapper {
+  /* background: hsl(0, 0, 100%); */
+  background-color: white;
+  width: 35%;
+  height: 100%;
+  padding: 0 2rem; /* Add some horizontal padding to create space between elements */
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.mark,
+.angela,
+.jacob,
+.kimberly,
+.nathan,
+.anna {
+  background: hsl(213, 39%, 83%);
+  margin: 1rem;
+  max-width: 1440px;
+}
+
+.mark span,
+.angela span,
+.jacob span,
+.kimberly span,
+.nathan span,
+.anna span,
+.rizky span {
+  color: gray;
+}
+
+.mark b:hover,
+.angela b:hover,
+.jacob b:hover,
+.kimberly b:hover,
+.nathan b:hover,
+.anna b:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.mark :hover,
+.angela :hover,
+.jacob :hover,
+.kimberly :hover,
+.nathan :hover,
+.anna :hover,
+.rizky-container:hover {
+  cursor: pointer;
+}
+
+/* Set a fixed size for all images */
+.mark-img,
+.angela-img,
+.kimberly-img,
+.chess-img,
+.rizky-img,
+.anna-img,
+.jacob-img,
+.nathan-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.nathan-img {
+  /* Remove padding from the image container */
+  max-width: 100%;
+  width: 100px;
+}
+
+.nathan p,
+.nathan span {
+  margin-left: 25px;
+}
+
+.chess-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Rizky components */
+
+.rizky-para {
+  background: hsl(212, 45%, 81%);
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+
+.rizky-container {
+  background: hsl(213, 39%, 83%);
+  padding-bottom: 12px;
+  margin: 1rem;
+}
+
+.rizky {
+  margin: auto;
+}
+.rizky b:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}

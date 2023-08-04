@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h3>Notifications <span>3</span></h3>
+        <p class="readAll">Mark all as read</p>
+      </header>
+      <section>
+        <!-- Mark start -->
+        <div class="mark">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-mark-webber.webp"
+                class="mark-img"
+                alt="profile picture of mark"
+              />
+            </div>
+            <div>
+              <p>
+                <b>Mark Webber</b> reacted to your recent post My first
+                tournament today!
+              </p>
+              <span>1m ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Mark finish -->
+        <!-- Angela start -->
+        <div class="angela">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-angela-gray.webp"
+                class="angela-img"
+                alt="profile picture of angela"
+              />
+            </div>
+            <div>
+              <p><b>Angela Gray</b> followed you</p>
+              <span>5m ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Angela finish -->
+        <!-- Jacob start -->
+        <div class="jacob">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-jacob-thompson.webp"
+                class="jacob-img"
+                alt="profile picture of jacob"
+              />
+            </div>
+            <div>
+              <p><b>Jacob Thompson</b> has joined your group Chess Club</p>
+              <span>1 day ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Jacob finish -->
+        <!-- Rizky start -->
+        <div class="rizky-container">
+          <div class="rizky">
+            <div class="flex">
+              <div>
+                <img
+                  src="/assets/images/avatar-rizky-hasanuddin.webp"
+                  class="rizky-img"
+                  alt="profile picture of rizky"
+                />
+              </div>
+              <div>
+                <p><b>Rizky Hasanuddin</b> sent you a private message</p>
+                <span>5 days ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="rizky-para">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+        <!-- Rizky finish -->
+        <!-- Kimberly start -->
+
+        <div class="kimberly">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-kimberly-smith.webp"
+                class="kimberly-img"
+                alt="profile picture of kimberly"
+              />
+            </div>
+            <div>
+              <p><b>Kimberly Smith</b> commented on your picture</p>
+              <span>1 week ago</span>
+            </div>
+            <div>
+              <img
+                src="/assets/images/image-chess.webp"
+                class="chess-img"
+                alt="image of girl playing chess"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Kimberly finish -->
+        <!-- Nathan start -->
+        <div class="nathan">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-nathan-peterson.webp"
+                class="nathan-img"
+                alt="profile picture of nathan"
+              />
+            </div>
+            <div>
+              <p>
+                <b>Nathan Peterson</b> reacted to your recent post 5 end-game
+                strategies to increase your win rate
+              </p>
+              <span>2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Nathan finish -->
+        <!-- Anna start -->
+        <div class="anna">
+          <div class="flex">
+            <div>
+              <img
+                src="/assets/images/avatar-anna-kim.webp"
+                class="anna-img"
+                alt="profile picture of anna"
+              />
+            </div>
+            <div>
+              <p><b>Anna Kim</b> left the group Chess Club</p>
+              <span>2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <!-- Anna finish -->
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ben</a>.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
